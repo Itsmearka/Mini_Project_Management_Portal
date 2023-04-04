@@ -1,0 +1,359 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.rectangle8 {
+  position: absolute;
+  left: 45px;
+  top: -4px;
+  width: 1440px;
+  height: 700px;
+  background-color: #d9d9d9;
+}
+.rectangle10 {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 1440px;
+  height: 700px;
+  background-color: #181818;
+}
+.rectangle11 {
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 1440px;
+  height: 1721px;
+  background-color: #181818;
+}
+.ellipse {
+  position: absolute;
+  left: -49px;
+  top: -123px;
+  width: 449px;
+  height: 449px;
+  overflow: visible;
+  filter: blur(150px);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.ellipse1 {
+  position: absolute;
+  left: 1284px;
+  top: 225px;
+  width: 341px;
+  height: 441px;
+  overflow: visible;
+  filter: blur(150px);
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.ellipse2 {
+  position: absolute;
+  left: 495px;
+  top: 681px;
+  width: 449px;
+  height: 449px;
+  overflow: visible;
+  filter: blur(150px);
+}
+.icon3 {
+  width: 100%;
+  height: 100%;
+}
+.home {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1028px;
+  top: 58px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.goToPrevious {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1100px;
+  top: 562px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.help {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1134px;
+  top: 58px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle9 {
+  position: absolute;
+  left: 1221px;
+  top: 49px;
+  width: 94px;
+  height: 48px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #ff79dfff 0%, #733ca4ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.logIn {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1233px;
+  top: 58px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.sMITLogo {
+  position: absolute;
+  left: 100px;
+  top: 48px;
+  width: 201px;
+  height: 45px;
+  background-image:/* webpackIgnore: true */ url('assets/sMITLogo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle12 {
+  position: absolute;
+  left: 95px;
+  top: 200px;
+  width: 1220px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: #404040;
+}
+.rectangle20 {
+  position: absolute;
+  left: 92px;
+  top: 603px;
+  width: 1220px;
+  height: 275px;
+  border-radius: 10px;
+  background-color: #404040;
+}
+.rectangle19 {
+  position: absolute;
+  left: 137px;
+  top: 236px;
+  width: 1130px;
+  height: 275px;
+  border-radius: 10px;
+  background-color: #181818;
+}
+.rectangle21 {
+  position: absolute;
+  left: 134px;
+  top: 639px;
+  width: 1130px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #181818;
+}
+.student {
+  background-image: linear-gradient(180deg, #ff79dfff 0%, #5326caff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 253px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.nameAvishekSuklabaidya {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 294px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.registrationNo202000119 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 329px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.branchCSE {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 364px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.year3rd {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 399px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.semester6th {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 174px;
+  top: 434px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.cGPA84 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 174px;
+  top: 469px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.groupId {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 668px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.projectName {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 703px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.mentor {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 176px;
+  top: 738px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.rectangle92 {
+  position: absolute;
+  left: 1180px;
+  top: 250px;
+  width: 68px;
+  height: 32px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, #ff79dfff 0%, #733ca4ff 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.edit {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 1199px;
+  top: 257px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
